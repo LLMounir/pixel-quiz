@@ -1,0 +1,342 @@
+#Aladdin
+	Aladdin
+	Abu
+	Cassim/Roi des Voleurs
+	Génie
+	Iago
+	Jafar
+	Jasmine
+	Sultan
+	Tapis
+
+#Alice aux Pays des Merveilles
+	Alice
+	Chapelier Fou
+	Chat de Cheshire
+	Dodo
+	Lapin Blanc
+	Lièvre de Mars
+	Reine Blanche
+	Reine de Coeur
+	Roi de Coeur
+	Tweetle Dee/Tweetle Dum
+
+#Les Aristochats
+	Berlioz
+	Duchesse
+	Edgar
+	Marie
+	Thomas O'Malley
+	Toulouse
+
+#Atlantide, l'Empire Perdu
+	Audrey
+	Docteur Gentil
+	Fenton
+	Helga
+	Kida
+	Commandant Lyle
+	Milo
+	Vincenzo
+	Madame Placard
+
+#Bambi
+	Bambi
+	Féline
+	Fleur
+	Panpan
+
+#Basil Détective Privé
+	Basil
+	Docteur David
+	Olivia
+	Ratigan
+
+#La Belle au Bois Dormant
+	Aurore
+	Flora
+	Maléfique
+	Paquerette
+	Pimprenelle
+	Prince Philippe
+
+#La Belle et le Clochard
+	Ange
+	Belle
+	César
+	Clochard
+	Jock
+	Scamp
+
+#Bernard et Bianca
+	Bernard
+	Bianca
+	Jack
+	Méduse
+	Penny
+
+#Blanche-Neige et les 7 Nains
+	Atchoum
+	Blanche-Neige
+	Dormeur
+	Grincheux
+	Joyeux
+	Prince Floriant
+	Prof
+	Méchante Reine/Sorcière
+	Simplet
+	Timide
+
+#Le Bossu de Notre-Dame
+	Clopin
+	Djali
+	Esméralda
+	Frollo
+	Phoebus
+	Quasimodo
+
+#Cendrillon
+	Anastasie
+	Cendrillon
+	Gusgus
+	Jack
+	Javotte
+	Lucifer
+	Marie
+	Marraine Fée
+	Prince
+
+#La Ferme se Rebelle
+	Alameda Slim
+	Audrey
+	Buck
+	Maggie
+	Madame Calloway
+
+#Frère des Ours
+	Denahi
+	Kenai
+	Koda
+	Nita
+	Sitka
+
+#Hercule
+	Les Dieux de l'Olympe
+	Hadès
+	Hercule
+	Héra
+	Megara
+	Les Muses
+	Panique (Démon Bleu)
+	Peine (Démon Rouge)
+	Zeus
+
+#Les Indestructibles
+	Buddy
+	Flèche
+	Hélène/Elastigirl
+	Jack-Jack
+	Mirage
+	Robert/Monsieur Indestructible
+	Violette
+
+#Kuzco
+	Kronk
+	Kuzco
+	Malina
+	Pacha
+	Yzma
+
+#Lilo et Stitch
+	David
+	Docteur Jumba Jookiba
+	Gantu
+	Lilo
+	Nani
+	Peackly
+	Stitch
+
+#Le Livre de la Jungle
+	Bagheera
+	Baloo
+	Kaa
+	Mooglie
+	Roi Louis
+	Shanti
+	Shere Khan
+
+#Merlin l'Enchanteur
+	Arthur
+	Madame Mim
+	Merlin
+
+#Mickey
+	Daisy
+	Dingo
+	Donald
+	Max
+	Mickey
+	Minnie
+	Pat Hibulaire
+	Pluto
+	Roxanne
+
+#Monstre et Cie
+	Bob
+	Bouh
+	Célia
+	Léon le Caméléon
+	Sully
+
+
+#Mulan
+	Chien-Po
+	Fa Zhou
+	Grand-Mère Fa
+	Ling
+	Mei
+	Mulan
+	Mushu
+	Shang
+	Shan Yu
+	Su
+	Ting-Ting
+	Yao
+
+#Oliver et Compagnie
+	Einstein
+	Francis
+	Georgette
+	Jenny
+	Oliver
+	Rita
+	Roublard
+	Tito
+
+#Peter Pan
+	Capitaine Crochet
+	Clochette
+	Les Enfants Perdus
+	Jane
+	Jean
+	Lily la Tigresse
+	Monsieur Mouche
+	Michel
+	Peter Pan
+	Wendy
+
+#La Petite Sirène
+	Ariel
+	Chef Louis
+	Eric
+	Euréka
+	Flash
+	Melody
+	Morgana
+	Poloche
+	Roi Triton
+	Sebastian
+	Tip
+	Ursula/Vanessa
+
+#Pinocchio
+	La Fée Bleue
+	Gepetto
+	Grand Coquin
+	Jiminy Cricket
+	Monstro
+	Pinocchio
+
+#Pocahontas
+	John Smith
+	Meeko
+	Percy
+	Pocahontas
+	Ratcliffe
+
+#La Princesse et la Grenouille
+	Charlotte
+	Docteur Facilier
+	Louis l'Alligator
+	Mama Odie
+	Prince Naveen
+	Tiana
+
+#Le Roi Lion
+	Kiara
+	Kovu
+	Mufasa
+	Nala
+	Pumba
+	Rafiki
+	Sarafina
+	Scar
+	Simba
+	Timon
+	Vitani
+	Zazu
+	Zira
+
+#Raiponce
+	Raiponce
+	Flynn Rider
+
+#Robin Des Bois
+	Robin
+	Frère Toc
+	Petit Jean
+	Adam
+	Le Prince Jean
+
+#Rox et Rouky
+	Amos Slade
+	Big Mama
+	Rox
+	Roucky
+	Veuve Tartine
+	Vixy
+
+#Tarzan
+	Clayton
+	Kala
+	Kerchak
+	Jane
+	Professeur Porter
+	Tantor
+	Tarzan
+	Terk
+	Zugor
+
+#Toy Story
+	Andy
+	Barbie
+	Bergère
+	Buzz l'Eclair
+	Fourchette
+	Jessie
+	Madame Patate
+	Monsieur Patate
+	Rex
+	Woody
+	Zig-Zag
+	Zurg
+
+#Volt
+	Esther
+	Penny
+	Rhino
+	Volt
+
+#Wall-E
+	Eve
+	Wall-E
+
+#Winnie l'Ourson
+	Bourriquet
+	Coco Lapin
+	Maître Hibou
+	Maman Gourou
+	Petit Gourou
+	Porcinet
+	Tigrou
+	Winnie

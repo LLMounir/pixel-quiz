@@ -1,0 +1,30 @@
+double clic exe
+    clic du jouer
+        entrer non du joueur
+        clic sur V
+            Trigger clic secret
+
+
+
+clic secret 
+    if 0
+        Affiches éléments pour questions
+        Sélectionne aléatoirement une question et ses 4 réponses possibles
+            clic duo/carré/cash
+                Affiche 2, 4 ou textbox
+                    Entrer réponse
+                    clic sur réponse ou sur V
+                        mettre à jour score et donner bonne réponse
+                        trigger clic secret
+    if 1
+        Affihce éléments pour lyrics
+            Entrer réponse dans texte box
+            clic sur V
+                Mettre à jour le score et donner bonne réponse
+                trigger clic secret
+    if 2
+        Affiche éléments pour images
+            Entrer réponse 
+            clic sur V
+                mettre à jour score et donner bonne réponse
+                trigger clic secret

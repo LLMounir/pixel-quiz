@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{977FCFBB-BFBE-4F9A-8255-CB9EB5DED7E8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>pop_sauce</RootNamespace>
+    <AssemblyName>pop-sauce</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Quiz-Games-red.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Syncfusion.BulletGraph.Windows, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Core.WinForms, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Diagram.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.Diagram.Windows, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Grid.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.Grid.Windows, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.SfInput.WinForms, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Shared.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.Shared.Windows, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.SpellChecker.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.Tools.Base, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.Tools.Windows, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.TreeMap.Windows, Version=17.4460.0.39, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zip.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apropos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\classement.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jouer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parametres.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\classement.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lenny.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Al.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aladdin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Angel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anna.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ant-Man.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ariel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arlo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Astrid.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aurore.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bambi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Baymax.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BB-8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Belle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black-Panther.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black-Widow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blanche-Neige.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bob.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bonnie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bourriquet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buzz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captain-America.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captain-Marvel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carl-Fredricksen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cendrillon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chat-Du-Cheshire.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clochette.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Daisy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark-Vador.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Darla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dingo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Docteur-La-Peluche.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Donald.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doug.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dumbo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edna.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elena.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ellie-Fredricksen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ellinor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elsa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eve.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flash-McQueen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fourchette.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Francesco-Bernoulli.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Germaine.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gill.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grincheux.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Groot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Han-Solo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hercules.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hulk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IronMan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jack-Skellington.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jasmine.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jessie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Joie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La-Bergere.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La-Bete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lotso.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Luigi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Marie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Marteau.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Martin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mary-Poppins.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maui.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Meeko.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Merida.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mickey.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Miguel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minnie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mirage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mulan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Olaf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Panpan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Peter-Pan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pinocchio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pluto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pocahontas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Porcinet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R2-D2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Raiponec.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rex.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Russell.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sally.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Siffli.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Simba.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spiderman.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stitch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sully.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Syndrome.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thanos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tic-Et-Tac.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tigrou.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tilt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tristesse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vaiana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vampirina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WALL-E.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Winnie-L%27Ourson.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Woody.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yeti.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zig-Zag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alice_au_Pays_Des_Merveilles_-_Je_suis_en_retard.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alice_au_Pays_Des_Merveilles_-_Peignons_les_roses_en_rouge.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alice_au_Pays_Des_Merveilles_-_Qui_ose_peindre_mes_roses_en_rouge.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bambi_-_Je_chante_pour_toi.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bambi_-_L_amour_est_eternel.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bambi_-_La_chanson_de_la_pluie.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bambi_-_La_chanson_du_printemps.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aladdin_-_Ce_reve_bleu.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aladdin_-_Je_suis_ton_meilleur_ami.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aladdin_-_Prince_Ali.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alice_au_Pays_Des_Merveilles_-_Chanson_du_non-anniversaire.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Belle_au_bois_dormant_-_J_en_ai_reve.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Belle_et_la_Bete_-_C_est_la_fete.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Belle_et_la_Bete_-_Gaston.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Belle_et_la_Bete_-_Histoire_eternelle.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blanche_Neige_et_les_Sept_Nains_-_Heigh-ho.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blanche_Neige_et_les_Sept_Nains_-_On_se_lave.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blanche_Neige_et_les_Sept_Nains_-_Siffler_en_travaillant.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blanche_Neige_et_les_Sept_Nains_-_Un_chant.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blanche_Neige_et_les_Sept_Nains_-_Un_jour_mon_prince_viendra.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blanche_Neige_et_les_Sept_Nains_-_Un_sourire_en_chantant.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cendrillon_-_Bibbidi-Bobbidi-Boo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cendrillon_-_C_est_ca_l_amour.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cendrillon_-_Les_harpies.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cendrillon_-_Tendre_reve.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dumbo_-_Mon_tout_petit.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dumbo_-_Quand_je_vois_voler_un_elephant.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frere_des_Ours_-_Bienvenue.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frere_des_Ours_-_Je_m_en_vais.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frere_des_Ours_-_Mon_frere_ours.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hercule_-_De_zero_en_heros.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hercule_-_Jamais_je_n_avouerai.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hercule_-_Le_monde_qui_est_le_mien.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vaiana_-_Bling-Bling.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vaiana_-_Je_suis_Vaiana.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vaiana_-_L_Explorateur.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vaiana_-_Le_Bleu_Lumiere.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vaiana_-_Logo_te_pate.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vaiana_-_Notre_Terre.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vaiana_-_Pour_les_hommes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vaiana_-_Te_Fiti.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Belle_et_la_Bete_-_Je_ne_savais_pas.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Belle_et_le_Clochard_-_Belle_Nuit.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Belle_et_le_Clochard_-_Il_se_traine.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Belle_et_le_Clochard_-_La_chanson_des_siamois.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Petite_Sirene_-_Partir_la-bas.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Petite_Sirene_-_Pauvres_ames_infortunees.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Petite_Sirene_-_Sous_l_ocean.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Planete_au_Tresor_-_Un_homme_libre.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Princesse_et_la_Grenouille_-_A_travers_le_bayou.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Princesse_et_la_Grenouille_-_Au_bout_du_reve.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Princesse_et_la_Grenouille_-_Creuse_encore_et_encore.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Princesse_et_la_Grenouille_-_Ma_belle_Evangeline.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Reine_des_Neiges_-_En_ete.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Reine_des_Neiges_-_Je_voudrais_un_bonhomme_de_neige.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Reine_des_Neiges_-_Le_coeur_de_glace.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Reine_des_Neiges_-_Le_renouveau.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Reine_des_Neiges_-_Liberee_delivree.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Reine_des_Neiges_-_Nul_n_est_parfait.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_Bossu_de_Notre_Dame_-_Charivari.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_Bossu_de_Notre_Dame_-_Douce_lueur.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_Bossu_de_Notre_Dame_-_Les_bannis_ont_droit_d_amour.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_Bossu_de_Notre_Dame_-_Les_cloches_de_Notre_Dame.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_Bossu_de_Notre_Dame_-_Rien_qu_un_jour.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_Bossu_de_Notre_Dame_-_Un_gars_comme_toi.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_Roi_Lion_-_Je_voudrais_deja_etre_roi.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_Roi_Lion_-_L_amour_brille_sous_les_etoiles.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_Roi_Lion_-_L_histoire_de_la_vie.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_Roi_Lion_-_Soyez_pretes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_Roi_Lion_2_-_Il_vit_en_toi.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_Roi_Lion_2_-_L_amour_nous_guidera.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_Roi_Lion_2_-_L_un_des_notres.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_Roi_Lion_2_-_Mon_chant_d_espoir.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_Roi_Lion_2_-_Nous_sommes_un.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_Roi_Lion_2_-_Upendi.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_sortilege_de_Cendrillon_-_C_est_au_bal.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_sortilege_de_Cendrillon_-_Plus_que_des_reves.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le_sortilege_de_Cendrillon_-_Une_tres_belle_annee.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Les_Aristochats_-_Des_gammes_et_des_arpeges.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Les_Aristochats_-_Thomas_O_Malley.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Les_Aristochats_-_Tout_le_monde_veut_devenir_un_cat.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Les_Aventures_de_Bernard_et_Bianca_-_Demain_c_est_un_autre_jour.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Les_Aventures_de_Bernard_et_Bianca_-_Quelqu_un_t_attend_la-bas.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Les_Aventures_de_Bernard_et_Bianca_-_S-O-S_Societe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mary_Poppins_-_Beau_cerf-volant.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mary_Poppins_-_Chem_cheminee.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mary_Poppins_-_Entrons_dans_la_danse.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mary_Poppins_-_Fidelite_Fiduciary_Bank.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mary_Poppins_-_Jolie_promenade.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mary_Poppins_-_Mes_soeurs_suffragettes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mary_Poppins_-_Nourrir_les_p_tits_oiseaux.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mary_Poppins_-_Supercalifragilisticexpialidocious.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mary_Poppins_-_Un_morceau_de_sucre.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Merlin_l_Enchanteur_-_Higitus_Figitus.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mulan_-_Comme_un_homme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mulan_-_Honneur_a_tous.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mulan_-_Reflexion.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oliver_et_Compagnie_-_Bonne_compagnie.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oliver_et_Compagnie_-_Mais_pourquoi_m_en_faire.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Peter_Pan_-_A_la_file_indienne.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Peter_Pan_-_Tu_t_envoles.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pocahontas_-_Au_detour_de_la_riviere.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pocahontas_-_Des_sauvages.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pocahontas_-_Ecoute_ton_coeur.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pocahontas_-_L_air_du_vent.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pocahontas_-_L_or_de_Virginie.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pocahontas_-_Virginia_Compagnie.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Raiponce_-_J_ai_un_reve.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Raiponce_-_Je_veux_y_croire.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Raiponce_-_N_ecoute_que_moi.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Raiponce_-_Ou_est_la_vraie_vie.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tarzan_-_Enfant_de_l_homme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tarzan_-_Entre_deux_mondes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tarzan_-_Je_veux_savoir.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tarzan_-_Toujours_dans_mon_coeur.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toy_Story_-_Je_suis_ton_ami.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vaiana_-_An_Innocent_Warrior.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leaderboard.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lyrics.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Quiz-Games-red.ico" />
+    <Content Include="Wifi c7.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
