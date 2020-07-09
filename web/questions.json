@@ -1,0 +1,1125 @@
+[
+  {
+    "question": "Quel est le nom du jeune ours dont Kenaï devient l'ami dans 'Frère des Ours'?",
+    "correct_answer": "Koda",
+    "incorrect_answers": [
+      "Juneau",
+      "Kyle",
+      "Sitka"
+    ]
+  },
+  {
+    "question": "Comment sont la plupart des souvenirs de Riley au début de Vice-Versa'?",
+    "correct_answer": "Joyeux",
+    "incorrect_answers": [
+      "Effrayés",
+      "Tristes",
+      "En colère"
+    ]
+  },
+  {
+    "question": "De quel dessin animé le Lièvre de mars et le Lapin blanc proviennent-ils?",
+    "correct_answer": "Alice au pays des merveilles",
+    "incorrect_answers": [
+      "Blanche neige",
+      "Cendrillon",
+      "Taram et le chaudron magique"
+]
+  },
+  {
+    "question": "Quel film de Disney raconte l'histoire d'un robot nettoyant la terre dans un futur lointain?",
+    "correct_answer": "WALL-E",
+    "incorrect_answers": [
+      "Moi, moche et méchant",
+      "Le géant de fer",
+      "Planes"
+]
+  },
+  {
+    "question": "Pour quel film d'animation Disney sorti en 2016 Lin-Manuel Miranda a-t-il composé des chansons?",
+    "correct_answer": "Vaiana",
+    "incorrect_answers": [
+      "Coco",
+      "Zootopie",
+      "Toy Story 3"
+]
+  },
+  {
+    "question": "En quelle année est sorti 'Dinosaure'?",
+    "correct_answer": "2000",
+    "incorrect_answers": [
+      "2002",
+      "1999",
+      "2003"
+]
+
+  },
+  {
+    "question": "Quel est le nom de la suite du 'Livre de la Jungle'?",
+    "correct_answer": "Le livre de la jungle 2",
+    "incorrect_answers": [
+      "Jungle Boogie",
+      "Retour dans la jungle",
+      "La revanche de Kaa"  
+]
+  },
+  {
+    "question": "Quelle est la première mission de l'officier Judy de la police de Zootopie?",
+    "correct_answer": "Le stationnement",
+    "incorrect_answers": [
+      "Remplir de la paperasse",
+      "Une enquête sur un meurtre",
+      "Employé de cafétéria"   
+]
+  },
+  {
+    "question": "Que signifie les initiales 'BGG' du film Disney réalisé par Steven Spielberg 'Le BGG'?",
+    "correct_answer": "Bon Gros Géant",
+    "incorrect_answers": [
+      "Balèze Garçon de Grenoble",
+      "Bizarre ce Gars Gaston",
+      "Bon Gras Géant"
+] 
+  },
+  {
+    "question": "Dans 'La Belle et la Bête'(2017), quelle actrice joue la Belle ?",
+    "correct_answer": "Emma Watson",
+    "incorrect_answers": [
+      "Kristen Stewart",
+      "Elle Fanning",
+      "Millie Bobby Brown"
+]
+  },
+  {
+    "question": "Quelle est la couleur de la colère dans 'Vice-Versa'?",
+    "correct_answer": "Rouge",
+    "incorrect_answers": [    "Violette",
+    "Noire",
+    "Verte"
+    
+]  },
+  {
+    "question": "Qui dit 'Toutes mes félicitations San Francisco, tu as dénaturé la pizza'?",
+    "correct_answer": "Colère",
+    "incorrect_answers": [    "Riley",
+    "Tristesse",
+    "Joie"
+    
+]  },
+  {
+    "question": "Comment surnomme-t-on le père de Belle dans 'La Belle et la Bête'?",
+    "correct_answer": "Maurice le fou",
+    "incorrect_answers": [    "Maurice le cinglé",
+    "Maurice le maladroit",
+    "Maurice le dingue"
+    
+]  },
+  {
+    "question": "Lequel des personnages suivants n'est pas une hyène figurant dans 'Le roi lion'?",
+    "correct_answer": "Zazou",
+    "incorrect_answers": [    "Ed",
+    "Shenzi",
+    "Banzaï"
+    
+]  },
+  {
+    "question": "Qui est 'Le garçon qui ne voulait pas grandir'?",
+    "correct_answer": "Peter Pan",
+    "incorrect_answers": [    "Prince Naveen",
+    "Aladdin",
+    "Robin des Bois"
+    
+]  },
+  {
+    "question": "Quel type d'animal est Doug dans 'Là-Haut'?",
+    "correct_answer": "Un chien",
+    "incorrect_answers": [    "Une vache",
+    "Un oiseau",
+    "Un chat"
+    
+]  },
+  {
+    "question": "Quel est le nom du méchant dans les 101 Dalmatiens?",
+    "correct_answer": "Cruella d'Enfer",
+    "incorrect_answers": [    "Mme Smith",
+    "Le capitaine crochet",
+    "Mme Maléfique"
+    
+]  },
+  {
+    "question": "Dans 'Le Monde de Dory', qui part à la recherche de ses parents?",
+    "correct_answer": "Marin et Nemo",
+    "incorrect_answers": [    "Marin et Hank",
+    "Becky et Nemo",
+    "Hank et Becky"
+    
+]  },
+  {
+    "question": "Quel personnage dans 'Les Mondes de Ralph' est le vrai maître de la terre de Sa Sucrerie?",
+    "correct_answer": "Vanellope Von Schweetz",
+    "incorrect_answers": [    "Docteur Facilier",
+    "Le Roi Candy",
+    "Prince Naveen"
+    
+]  },
+  {
+    "question": "Quelle chanson de 'La Belle et la Bête' a été coupée au montage puis rajoutée au DVD?",
+    "correct_answer": "Humain à nouveau",
+    "incorrect_answers": [    "Si je ne peux pas l'aimer",
+    "Père et fille",
+    "Aidez-moi"
+    
+]  },
+  {
+    "question": "Quelle méchante dit: 'Maintenant je suis la maîtresse de tout l'océan! Les vagues obéissent à mes moindres désirs?",
+    "correct_answer": "Ursula",
+    "incorrect_answers": [    "Scar",
+    "Cruella de Vil",
+    "Medusa"
+    
+]  },
+  {
+    "question": "D’où vient le prince Naveen dans ‘La princesse et La Grenouille’?",
+    "correct_answer": "Maldonia",
+    "incorrect_answers": [    "Andalasia",
+    "Genovia",
+    "URSS"
+    
+]  },
+  {
+    "question": "‘Blanche Neige et les Sept Nains’ fut le premier long-métrage d’animation Disney. Quel fut le second?",
+    "correct_answer": "Pinocchio",
+    "incorrect_answers": [    "Bambi",
+    "Dumbo",
+    "La Belle et le Clochard"
+    
+]  },
+  {
+    "question": "Complétez le titre de ce film d’animation: ‘Lilo et Stitch 2 - ________’",
+    "correct_answer": "Hawaï, nous avons un problème!",
+    "incorrect_answers": [    "C’est quoi cette odeur?",
+    "La recherche des bulles cobras",
+    "La revanche de Gantu"
+    
+]  },
+  {
+    "question": "Dans ‘La Belle au bois dormant’, quelle tâche est confiée à Pimprenelle lors de la fête du 16e anniversaire d’Aurore?",
+    "correct_answer": "Faire le ménage dans la maison",
+    "incorrect_answers": [    "Faire le gâteau",
+    "Cueillir des baies",
+    "Coudre la robe"
+    
+]  },
+  {
+    "question": "Dans ‘Alice au Pays des Merveilles’, Alice et la Reine de Coeur jouent au croquet avec des flamants roses et des ….",
+    "correct_answer": "Hérissons",
+    "incorrect_answers": [    "Chiens",
+    "Crapauds",
+    "Chats"
+    
+]  },
+  {
+    "question": "À la fin du ‘Monde de Dory’, quel emploi Hank accepte-t-il?",
+    "correct_answer": "Professeur remplaçant",
+    "incorrect_answers": [    "Policier",
+    "Patissier",
+    "Plombier"
+    
+]  },
+  {
+    "question": "Dans quelle ville Nemo est-il mis dans un aquarium?",
+    "correct_answer": "Sydney",
+    "incorrect_answers": [    "Tokyo",
+    "Londres",
+    "New York"
+    
+]  },
+  {
+    "question": "Dans quel film d’animation les enfants se nomment-ils Violette, Flèche et Jack-Jack?",
+    "correct_answer": "Les indestructibles",
+    "incorrect_answers": [    "Toy Story",
+    "Là-haut",
+    "Cars"
+    
+]  },
+  {
+    "question": "Quel type de voiture est Doc Hudson dans ‘Cars’?",
+    "correct_answer": "Une Hudson Hornet de 1951",
+    "incorrect_answers": [    "Un coupé Mercury Club de 1949",
+    "Une Chevrolet Impala de 1967",
+    "Une Fiat 500 de 1959"
+    
+]  },
+  {
+    "question": "Pour quelle raison Linguini a-t-il été engagé à l’origine dans la cuisine de Gusteau?",
+    "correct_answer": "Vider les poubelles",
+    "incorrect_answers": [    "Serveur",
+    "Sous chef",
+    "Faire la vaisselle"
+    
+]  },
+  {
+    "question": "Quelle est la phrase fétiche de Buzz l’éclair dans ‘Toy Story’?",
+    "correct_answer": "Vers l’infini et au-delà",
+    "incorrect_answers": [    "Sous l’océan",
+    "Je sais que tu peux le faire",
+    "Elle est où Jeanne?"
+    
+]  },
+  {
+    "question": "Quel genre de jouet est Lenny dans ‘Toy Story’?",
+    "correct_answer": "Des jumelles",
+    "incorrect_answers": [    "Un dinosaure",
+    "Un cowboy",
+    "Une ardoise magnétique"
+    
+]  },
+  {
+    "question": "Où vivent les humains dans ‘Wall-E’?",
+    "correct_answer": "Dans un vaisseau spatial",
+    "incorrect_answers": [    "Dans une décharge",
+    "Dans une forêt",
+    "Sur la planète Mars"
+    
+]  },
+  {
+    "question": "Qu’y-a-t-il sur la broche que Carl donne à Ellie dans ‘Là-haut’?",
+    "correct_answer": "Une grappe de raisins",
+    "incorrect_answers": [    "Un zeppelin",
+    "Un coeur",
+    "Une boussole"
+    
+]  },
+  {
+    "question": "Quel est le hobby de Mérida dans ‘Rebelle’?",
+    "correct_answer": "Le tir à l’arc",
+    "incorrect_answers": [    "Le tennis",
+    "La couture",
+    "La peinture"
+    
+]  },
+  {
+    "question": "Quel est le nom de la reine dans ‘Rebelle’?",
+    "correct_answer": "Ellinor",
+    "incorrect_answers": [    "Jeanne",
+    "Mérida",
+    "Elissa"
+    
+]  },
+  {
+    "question": "Dans ‘Vice-Versa’, quel légume Riley déteste-elle?",
+    "correct_answer": "Broccoli",
+    "incorrect_answers": [    "Carotte",
+    "Tomate",
+    "Champignon"
+    
+]  },
+  {
+    "question": "Qui utilise une poêle à frire comme arme?",
+    "correct_answer": "Raiponce",
+    "incorrect_answers": [    "Belle",
+    "Mérida",
+    "Cendrillon"
+    
+]  },
+  {
+    "question": "Quel est le nom de la créature poilue que rencontre Taram dans ‘Taram et le chaudron magique’ ?",
+    "correct_answer": "Gurki",
+    "incorrect_answers": [    "Dalben",
+    "Tirelire",
+    "Tarama"
+    
+]  },
+  {
+    "question": "Qui chante 'L'air du vent'?",
+    "correct_answer": "Pocahontas",
+    "incorrect_answers": [    "Simba",
+    "Raiponce",
+    "Jasmine"
+    
+]  },
+  {
+    "question": "Qui a '(...) des lèvres rouges comme la rose, des cheveux noirs comme l'ébène (...)’?",
+    "correct_answer": "Blanche-Neige",
+    "incorrect_answers": [    "Pocahontas",
+    "Aurore",
+    "Cendrillon"
+    
+]  },
+  {
+    "question": "Complétez les paroles (Tarzan): 'Deux mondes, une seule famille, laisse ton coeur et le destin _________'",
+    "correct_answer": "guider toutes ces vies",
+    "incorrect_answers": [    "te diriger sans souci",
+    "t'aimer sans répit",
+    "prendre soin de tes amis"
+    
+]  },
+  {
+    "question": "Dans 'Pinocchio', quel personnage chante 'Quand on prie la bonne étoile'?",
+    "correct_answer": "Jiminy Cricket",
+    "incorrect_answers": [    "Geppetto",
+    "Pinocchio",
+    "Grand coquin"
+    
+]  },
+  {
+    "question": "D'après les paroles d'une chanson des 'Aristochats', qu'est-ce que 'tout le monde veut devenir'?",
+    "correct_answer": "Un cat",
+    "incorrect_answers": [    "Libre",
+    "Un chat de gouttière",
+    "Un matou"
+    
+]  },
+  {
+    "question": "Dans quel film de Disney les chansons 'L'histoire de la vie' et 'Je voudrais déjà être roi' sont-elles?",
+    "correct_answer": "Le Roi Lion",
+    "incorrect_answers": [    "Pocahontas",
+    "Le Roi Lion 2",
+    "Mulan"
+    
+]  },
+  {
+    "question": "Où Carl Fredricksen essaye-t-il d'emmener sa maison dans 'Là-haut'?",
+    "correct_answer": "Aux chutes du Paradis",
+    "incorrect_answers": [    "Au Lac du Paradis",
+    "Au bord du Nil",
+    "Au Lac Victoria"
+    
+]  },
+  {
+    "question": "Quel est le nom de la ville fictive où les personnages de 'Monstres et Cie' résident?",
+    "correct_answer": "Monstropolis",
+    "incorrect_answers": [    "Monstrocity",
+    "Metropolis",
+    "La cité de la peur"
+    
+]  },
+  {
+    "question": "Quel est le nom de la remorqueuse dans 'Cars'?",
+    "correct_answer": "Martin",
+    "incorrect_answers": [    "Marlin",
+    "Marsoulin",
+    "Marcel"
+    
+]  },
+  {
+    "question": "Dans 'Le Monde de Nemo', sur quel objet se trouve inscrite l'adresse où Némo est retenu prisonnier?",
+    "correct_answer": "Un masque de plongée",
+    "incorrect_answers": [    "Un coquillage",
+    "Une boîte de conserve",
+    "Un lance-pierre"
+    
+]  },
+  {
+    "question": "Quel est le nom du fidèle compagnon de Jafar dans le film 'Aladdin'?",
+    "correct_answer": "Lago",
+    "incorrect_answers": [    "Japu",
+    "Japou",
+    "Joe"
+    
+]  },
+  {
+    "question": "Quel animal Raiponce suit-elle à la trace tout le long du film?",
+    "correct_answer": "Un caméléon",
+    "incorrect_answers": [    "Un lapin",
+    "Un lézard",
+    "Un cheval"
+    
+]  },
+  {
+    "question": "Complétez les paroles: 'Il en faut peu pour être heureux, vraiment très peu pour être heureux, il faut se satisfaire du nécessaire. Un peu ______________'",
+    "correct_answer": "d'eau fraîche et de verdure",
+    "incorrect_answers": [    "d'eau fraîche et de banane",
+    "d'air frais et de verdure",
+    "de calme et de noix de coco"
+    
+]  },
+  {
+    "question": "Dans 'Le Roi Lion', comment s'appelle la mère de Simba?",
+    "correct_answer": "Sarabi",
+    "incorrect_answers": [    "Saradi",
+    "Sarab",
+    "Sura"
+    
+]  },
+  {
+    "question": "Comment surnomme-t-on les enfants avec qui Peter Pan habite?",
+    "correct_answer": "Les enfants perdus",
+    "incorrect_answers": [    "Les enfants gentils",
+    "Les enfants qui volent",
+    "Les enfants joyeux"
+    
+]  },
+  {
+    "question": "Quel animal est Fleur, l'amie de Bambi?",
+    "correct_answer": "Une moufette",
+    "incorrect_answers": [    "Un lapin",
+    "Une souris",
+    "Une lapine"
+    
+]  },
+  {
+    "question": "Quel empereur veut raser un village afin de faire construire une résidence?",
+    "correct_answer": "Kuzco",
+    "incorrect_answers": [    "Jafar",
+    "Empreur noir",
+    "Joeffrey"
+    
+]  },
+  {
+    "question": "Quel est le nom du papa de Pinocchio?",
+    "correct_answer": "Geppetto",
+    "incorrect_answers": [    "Figaro",
+    "Jean-Jacques",
+    "Gettoni"
+    
+]  },
+  {
+    "question": "Quelle est la race de Lady, la chienne qui tombe amoureuse de Clochard?",
+    "correct_answer": "Cocker",
+    "incorrect_answers": [    "Dalmatien",
+    "Labrador",
+    "Cavalier King Charles"
+    
+]  },
+  {
+    "question": "Dans 'Frère des Ours', Truc et Muche sont des ______.",
+    "correct_answer": "Élans",
+    "incorrect_answers": [    "Ours",
+    "Chevaux",
+    "Renards"
+    
+]  },
+  {
+    "question": "Qui donne un 'criquet porte-bonheur' à Mulan?",
+    "correct_answer": "Sa grand-mère",
+    "incorrect_answers": [    "Son grand-père",
+    "Sa tante",
+    "Mushu"
+    
+]  },
+  {
+    "question": "Dans quel film d'animation apparaissent Peine et Panique?",
+    "correct_answer": "Hercule",
+    "incorrect_answers": [    "Les indestructibles",
+    "Monstres et Cie",
+    "Les Aristochats"
+    
+]  },
+  {
+    "question": "Quel animal est Robin des Bois?",
+    "correct_answer": "Un renard",
+    "incorrect_answers": [    "Un coyote",
+    "Un tigre",
+    "Un loup"
+    
+]  },
+  {
+    "question": "Dans 'Rox et Rouky', Rox est le renard et Rouky le chien, mais quelle est la race de Roucky?",
+    "correct_answer": "Saint-Hubert",
+    "incorrect_answers": [    "Beagle",
+    "Cocker",
+    "Basset"
+    
+]  },
+  {
+    "question": "Quel personnage de fiction a inspiré celui de 'Basil, détective privé'?",
+    "correct_answer": "Sherlock Holmes",
+    "incorrect_answers": [    "Columbo",
+    "Derrick",
+    "David Goodenough"
+    
+]  },
+  {
+    "question": "En quelle année est sorti le film d'animation 'Blanche-Neige et les Sept Nains'?",
+    "correct_answer": "1937",
+    "incorrect_answers": [    "1940",
+    "1933",
+    "1950"
+    
+]  },
+  {
+    "question": "Comment s'appellent les deux belles-soeur de Cendrillon?",
+    "correct_answer": "Javotte et Anastasie",
+    "incorrect_answers": [    "Javotte et Anastasia",
+    "Gravotte et Anastasie",
+    "Juliette et Agnès"
+    
+]  },
+  {
+    "question": "Qu'a perdu Peter Pan chez les Darling?",
+    "correct_answer": "Son ombre",
+    "incorrect_answers": [    "Ses bottes",
+    "Son pantalon",
+    "Son chapeau"
+    
+]  },
+  {
+    "question": "Au Pays des merveilles, qui efface le chemin d'Alice?",
+    "correct_answer": "Un chien-balai",
+    "incorrect_answers": [    "Un chat-rieur",
+    "Un chien-fugueur",
+    "Un chien-pleureur"
+    
+]  },
+  {
+    "question": "Qui est Féline dans 'Bambi'?",
+    "correct_answer": "La copine de Bambi",
+    "incorrect_answers": [    "La moufette",
+    "La mère de Bambi",
+    "Le lapin"
+    
+]  },
+  {
+    "question": "En quel objet a été transformé Mme Samovar, la cuisinière dans 'La Belle et la Bête?'",
+    "correct_answer": "En théière",
+    "incorrect_answers": [    "En sucrier",
+    "En bol",
+    "En tasse"
+    
+]  },
+  {
+    "question": "Comment s'appelle le chat de la maison dans 'Cendrillon'?",
+    "correct_answer": "Lucifer",
+    "incorrect_answers": [    "Diablotin",
+    "Satan",
+    "Infernus"
+    
+]  },
+  {
+    "question": "Dans quelle ville se déroule 'Oliver et Compagnie'?",
+    "correct_answer": "New York",
+    "incorrect_answers": [    "Los Angeles",
+    "Seattle",
+    "New Jersey"
+    
+]  },
+  {
+    "question": "Quelle est la fonction de Dumbo dans le cirque?",
+    "correct_answer": "Il est clown",
+    "incorrect_answers": [    "Il est trapéziste",
+    "Il est équilibriste",
+    "Il est magicien"
+    
+]  },
+  {
+    "question": "Comment s'appelle l'arbre où vit Peter Pan?",
+    "correct_answer": "L'arbre du pendu",
+    "incorrect_answers": [    "L'arbre défendu",
+    "L'arbre perdu",
+    "L'arbre des enfants"
+    
+]  },
+  {
+    "question": "Avant l'arrivée de Mary Poppins, comment s'appelait l'ancienne nounou des deux enfants?",
+    "correct_answer": "Katie Nounou",
+    "incorrect_answers": [    "Janie Nourrice",
+    "Bettie Nounou",
+    "Suzie Nourrice"
+    
+]  },
+  {
+    "question": "Dans 'Fantasia' et plus précisément dans la séquence 'La danse des heures' avec quel animal un hippopotame effectue-t-il un balai?",
+    "correct_answer": "Un crocodile",
+    "incorrect_answers": [    "Une girafe",
+    "Un ours",
+    "Un tigre"
+    
+]  },
+  {
+    "question": "Dans la chanson 'Libérée, délivrée', quelles sont les paroles qui suivent: 'et mes pensées sont ...' ?",
+    "correct_answer": "Des fleurs de cristal gelées",
+    "incorrect_answers": [    "Si froides que je suis gelée",
+    "Une mélodie glacée",
+    "Des forêts enneigées"
+    
+]  },
+  {
+    "question": "Dans la chanson 'Partir là-bas', quelles sont les paroles qui suivent: 'moi je voudrais parcourir le monde ...' ?",
+    "correct_answer": "Moi je voudrais voir le monde danser",
+    "incorrect_answers": [    "Mais pour cela il me faudra marcher",
+    "j'aimerais tant par des jambes être portée",
+    "Moi j'aimerais tant pouvoir voyager"
+    
+]  },
+  {
+    "question": "Dans la chanson 'Les bannis ont droit d'amour', quelles sont les paroles qui suivent: 'nulle âme à part moi...' ?",
+    "correct_answer": "Ne les entendra",
+    "incorrect_answers": [    "Ne les aidera",
+    "Ne les regardera",
+    "Ne les accompagnera"
+    
+]  },
+  {
+    "question": "Dans la chanson 'L'air du vent', quelles sont les paroles qui suivent: 'Je suis fille de torrents et de rivières ...' ?",
+    "correct_answer": "La loutre et le héron sont mes amis",
+    "incorrect_answers": [    "Des forêts, et de tous les pays",
+    "La nature tout entière me sourit",
+    "Dans l'air résonne mon cri"
+    
+]  },
+  {
+    "question": "Dans la chanson 'Cruelle diablesse', quelles sont les paroles qui suivent: 'elle jette tant de sorts, à toute la ville ...' ?",
+    "correct_answer": "Chacun a le frisson dès qu'il la voit",
+    "incorrect_answers": [    "Chacun est pris d'effroi dès qu'il la voit",
+    "Chacun déserte l'endroit dès qu'il la voit",
+    "Chacun rentre chez lui dès qu'il la voit"
+    
+]  },
+  {
+    "question": "Dans la chanson 'J'en ai rêvé', quelles sont les paroles qui suivent: 'refusons tout deux ...' ?",
+    "correct_answer": "Que nos lendemains soient mal écrits",
+    "incorrect_answers": [    "Que l'histoire nous oublie",
+    "Que le temps passe trop vite",
+    "Que le futur soit monotone"
+    
+]  },
+  {
+    "question": "Quel est le numéro de l'experience 'Stitch'?",
+    "correct_answer": "626",
+    "incorrect_answers": [    "628",
+    "304",
+    "667"
+    
+]  },
+  {
+    "question": "Avec qui Pocahontas doit-elle se marier?",
+    "correct_answer": "Kocoum",
+    "incorrect_answers": [    "Ratcliffe",
+    "John Smith",
+    "Lucius Martus Kletus"
+    
+]  },
+  {
+    "question": "Où se déroule le film les 101 dalmatiens?",
+    "correct_answer": "Londres",
+    "incorrect_answers": [    "New York",
+    "Bruxelles",
+    "Paris"
+    
+]  },
+  {
+    "question": "Comment s'appelle la théière dans 'Cendrillon'?",
+    "correct_answer": "Mrs Samovar",
+    "incorrect_answers": [    "Mrs Elliot",
+    "Mrs Coffee",
+    "Mrs Ataye"
+    
+]  },
+  {
+    "question": "Dans 'Le Roi Lion', quel est le lieu où Simba et Nala rencontrent les hyènes?",
+    "correct_answer": "Le cimetière des éléphants",
+    "incorrect_answers": [    "La savane",
+    "Le rocher du lion",
+    "La fosse aux hyènes"
+    
+]  },
+  {
+    "question": "Quelle heure indique le lapin blanc dans 'Alice au Pays des Merveilles'?",
+    "correct_answer": "12h35",
+    "incorrect_answers": [    "9H30",
+    "13H40",
+    "11H59"
+    
+]  },
+  {
+    "question": "Dans quel film d'animation Disney prend-on le thé au plafond?",
+    "correct_answer": "Mary Poppins",
+    "incorrect_answers": [    "Alice au Pays des Merveilles",
+    "Peter Pan",
+    "Raiponce"
+    
+]  },
+  {
+    "question": "Combien de soeurs Ariel a-t-elle dans 'La Petite Sirène'?",
+    "correct_answer": "6",
+    "incorrect_answers": [    "5",
+    "7",
+    "4"
+    
+]  },
+  {
+    "question": "Quel est le nom du héros 'de 1001 Pattes'?",
+    "correct_answer": "Tilt",
+    "incorrect_answers": [    "Pilt",
+    "Filt",
+    "Théodore"
+    
+]  },
+  {
+    "question": "Comment s'appellent les deux vautours qui travaillent pour le shérif de Nottingham dans 'Robin des Bois'?",
+    "correct_answer": "Nisquedouille et Pendard",
+    "incorrect_answers": [    "Nisdouillé et Pendard",
+    "Flémard et Pendard",
+    "Flémard et Feignasse"
+    
+]  },
+  {
+    "question": "Dans quel film ces 5 mots 'Traguna Mekoides Trecorum Satis Dee' déclenchent-ils un sort de téléportation?",
+    "correct_answer": "L'apprentie sorcière",
+    "incorrect_answers": [    "Mary Poppins",
+    "Billy Elliot",
+    "Le Bossu de Notre Dame"
+    
+]  },
+  {
+    "question": "Qui kidnappe Penny dans 'Bernard et Bianca'?",
+    "correct_answer": "Medusa",
+    "incorrect_answers": [    "Raimanta",
+    "Tortua",
+    "Chokola"
+    
+]  },
+  {
+    "question": "Qu'ont Dumbo et Gédéon en commun ?",
+    "correct_answer": "Ils sont muets",
+    "incorrect_answers": [    "Ils sont sourds",
+    "Ils sont maladroits",
+    "Ce sont des éléphants"
+    
+]  },
+  {
+    "question": "Dans 'Les 101 dalmatiens', lequel des chiots est-il le plus fasciné par la télévision?",
+    "correct_answer": "Lucky",
+    "incorrect_answers": [    "Pinceau",
+    "Pongo",
+    "Elvis"
+    
+]  },
+  {
+    "question": "Quel est le nom de ce rat aux grands talents gustatifs qui rêve de devenir chef cuisinier?",
+    "correct_answer": "Rémy",
+    "incorrect_answers": [    "Ratatouille",
+    "Émile",
+    "Gustavo"
+    
+]  },
+  {
+    "question": "Quel est le premier long métrage des studios PIXAR ?",
+    "correct_answer": "Toy Story",
+    "incorrect_answers": [    "1001 Pattes",
+    "Les aventures d'André et Wally B.",
+    "Monstres et Cie"
+    
+]  },
+  {
+    "question": "Quel est le nom de la lampe symbole des studios Pixar ?",
+    "correct_answer": "Luxo Jr.",
+    "incorrect_answers": [    "Lumix",
+    "Pixy",
+    "Kodak"
+    
+]  },
+  {
+    "question": "Dans 'Toy Story', comment Buzz et Woody finissent-ils par rejoindre la voiture d'Andy avant le déménagement ?",
+    "correct_answer": "Grâce à une fusée accrochée sur Buzz",
+    "incorrect_answers": [    "Grâce à une voiture téléguidée",
+    "Grâce au chien de Sid",
+    "Grâce au pouvoir de la téléportation"
+    
+]  },
+  {
+    "question": "Comment Russel surnomme-t-il l'oiseau dans là-haut ?",
+    "correct_answer": "Kevin",
+    "incorrect_answers": [    "Dylan",
+    "Jennifer",
+    "Elsa"
+    
+]  },
+  {
+    "question": "Comment s'appelle la petite souris, ami de Dumbo?",
+    "correct_answer": "Timothé",
+    "incorrect_answers": [    "Théodore",
+    "Théophile",
+    "Tim"
+    
+]  },
+  {
+    "question": "Qui doit absolument rentrer avant minuit ?",
+    "correct_answer": "Cendrillon",
+    "incorrect_answers": [    "La Belle au bois dormant",
+    "Blanche-Neige",
+    "Alice"
+    
+]  },
+  {
+    "question": "Qu'utilisent Bernard et Bianca pour voyager sur le dos d'Orville, l'albatros?",
+    "correct_answer": "Une boîte de sardine",
+    "incorrect_answers": [    "Une boîte d'allumette",
+    "Un carton à chaussures",
+    "Une boîte de médicaments"
+    
+]  },
+  {
+    "question": "Comment Merlin déménage-t-il ses meubles?",
+    "correct_answer": "Il les réduit et les range dans son sac",
+    "incorrect_answers": [    "Il les fait voler et les transporte ailleurs",
+    "Il les fait disparaître",
+    "Il les charge sur son dos"
+    
+]  },
+  {
+    "question": "Durant la journée, les 7 nains travaillent dans une mine ...",
+    "correct_answer": "de diamants",
+    "incorrect_answers": [    "de charbon",
+    "d'or",
+    "d'émeraude"
+    
+]  },
+  {
+    "question": "Quels animaux sont transformés par la fée pour servir d'attelage à Cendrillon?",
+    "correct_answer": "Des souris",
+    "incorrect_answers": [    "Des chats",
+    "Des fourmis",
+    "Des chiens"
+    
+]  },
+  {
+    "question": "Qui apprend à Bambi à patiner?",
+    "correct_answer": "Pan-Pan",
+    "incorrect_answers": [    "Fleur",
+    "Maître Hibou",
+    "Bernard"
+    
+]  },
+  {
+    "question": "Les petits chatons de Duchesse se prénomment Marie, Berlioz, et ...",
+    "correct_answer": "Toulouse",
+    "incorrect_answers": [    "Vincent",
+    "Leonardo",
+    "Claude"
+    
+]  },
+  {
+    "question": "Comment Pinocchio et Geppetto font-ils éternuer la baleine qui les retient prisonnier?",
+    "correct_answer": "Ils font un feu",
+    "incorrect_answers": [    "Ils jettent du poivre",
+    "Ils la chatouillent avec une plume",
+    "Ils attendent qu'elle prenne froid"
+    
+]  },
+  {
+    "question": "Qui chante 'Il en faut peu pour être heureux, vraiment très peu pour être heureux...'?",
+    "correct_answer": "Baloo",
+    "incorrect_answers": [    "Baghera",
+    "Simba",
+    "Kaa"
+    
+]  },
+  {
+    "question": "Dans la 'La Belle et la Bête', quelle fleur ne doit pas faner?",
+    "correct_answer": "Une rose",
+    "incorrect_answers": [    "Un lys",
+    "Une tulipe",
+    "Une marguerite"
+    
+]  },
+  {
+    "question": "Comment les 101 dalmatiens changent-ils de race?",
+    "correct_answer": "Ils se roulent dans la suie",
+    "incorrect_answers": [    "Ils s'enduisent de peinture",
+    "Ils changent leurs papiers d'identité",
+    "Il se daupoudrent de farine"
+    
+]  },
+  {
+    "question": "Dans quel véhicule Edgar enlève-t-il les chatons de Duchesse?",
+    "correct_answer": "Dans un side-car",
+    "incorrect_answers": [    "Dans une fourgonnette",
+    "Dans une voiture",
+    "Dans un fiacre"
+    
+]  },
+  {
+    "question": "Quel métier exerce l'ami de Mary Poppins?",
+    "correct_answer": "Ramoneur",
+    "incorrect_answers": [    "Couvreur",
+    "Peintre",
+    "Plombier"
+    
+]  },
+  {
+    "question": "Comment s'appelle le petit singe d'Aladdin?",
+    "correct_answer": "Abu",
+    "incorrect_answers": [    "Aba",
+    "Abi",
+    "Abo"
+    
+]  },
+  {
+    "question": "Que prend Ursula, la sorcière de la mer, à Ariel?",
+    "correct_answer": "Sa voix",
+    "incorrect_answers": [    "Sa jeunesse",
+    "Son scooter des mers",
+    "Sa beauté"
+    
+]  },
+  {
+    "question": "Qui chante 'Hakuna Matata'?",
+    "correct_answer": "Pumba",
+    "incorrect_answers": [    "Pimba",
+    "Samba",
+    "Bamba"
+    
+]  },
+  {
+    "question": "Comment Mary Poppins et ses amis passent-ils de la vie réelle au pays imaginaire?",
+    "correct_answer": "Ils passent au travers de dessins faits sur le trottoir",
+    "incorrect_answers": [    "Ils passent à travers un miroir",
+    "Ils entrent dans un tableau",
+    "Ils s'envolent dans les nuages"
+    
+]  },
+  {
+    "question": "En quel animal est transformé Pinocchio?",
+    "correct_answer": "En âne",
+    "incorrect_answers": [    "En chien",
+    "En cheval",
+    "En chêvre"
+    
+]  },
+  {
+    "question": "Qui hypnotise Mowgli?",
+    "correct_answer": "Kaa",
+    "incorrect_answers": [    "Baloo",
+    "Baghera",
+    "Le roi des singes"
+    
+]  },
+  {
+    "question": "Dans 'L'apprenti sorcier', quel objet aide Mickey à porter de l'eau?",
+    "correct_answer": "Des balais",
+    "incorrect_answers": [    "Des chaises",
+    "Des pelles",
+    "Des plantes"
+    
+]  },
+  {
+    "question": "Qui est 'l'espion aux pattes de velours'?",
+    "correct_answer": "Un chat",
+    "incorrect_answers": [    "Une femme",
+    "Un agent secret",
+    "Une petite fille"
+    
+]  },
+  {
+    "question": "Dans quel film d'animation des hippopotames dansent en tutu?",
+    "correct_answer": "Fantasia",
+    "incorrect_answers": [    "Alice au Pays des Merveilles",
+    "Mary Poppins",
+    "Peter Pan"
+    
+]  },
+  {
+    "question": "Comment s'appelle le hibou de Merlin?",
+    "correct_answer": "Archimède",
+    "incorrect_answers": [    "Pythagore",
+    "Nostradamus",
+    "Galilée"
+    
+]  },
+  {
+    "question": "Pourquoi Dumbo, lors de son premier envol, tient-il une plume?",
+    "correct_answer": "Parce qu'elle est magique",
+    "incorrect_answers": [    "Pour ressembler à un oiseau",
+    "C'est un porte-bonheur",
+    "C'est tout ce qu'il avait sous la main"
+    
+]  },
+  {
+    "question": "Figaro, la Fée Bleue, Cléo et Mr Stromboli sont des personnages de ...",
+    "correct_answer": "Pinocchio",
+    "incorrect_answers": [    "Fantasia",
+    "Cendrillon",
+    "La Belle et la Bête"
+    
+]  },
+  {
+    "question": "Une fois la Belle et tous les gens du château endormis, le mur d'enceinte est entrouré de ...",
+    "correct_answer": "Ronces",
+    "incorrect_answers": [    "Lierre",
+    "Chèvrefeuille",
+    "Barbelés"
+    
+]  },
+  {
+    "question": "Quelle profession exerce Basil?",
+    "correct_answer": "Detective privé",
+    "incorrect_answers": [    "Inspecteur de police",
+    "Commissaire de police",
+    "Vendeur de tapis"
+    
+]  },
+  {
+    "question": "Comment la fée Clochette fait-elle voler les amis de Peter Pan?",
+    "correct_answer": "Elle les couvre de poudre magique",
+    "incorrect_answers": [    "Elle leur donne un coup de baguette magique",
+    "Elle prononce une phrase magique",
+    "Elle leur fait boire une potion magique"
+    
+]  },
+  {
+    "question": "Quel titre donne la fée à Jimmy?",
+    "correct_answer": "Grand chancelier de la connaissance du bien et du mal",
+    "incorrect_answers": [    "Grand ambassadeur de la conscience de Pinocchio",
+    "Grand ministre des bons principes",
+    "Grand général des bonnes manières"
+    
+]  },
+  {
+    "question": "Quelle est la seule princesse Disney possédant des tatouages?",
+    "correct_answer": "Pocahontas",
+    "incorrect_answers": [    "Ariel",
+    "Raiponce",
+    "Tiana"
+    
+]  },
+  {
+    "question": "Agée de 14 ans, qui est la plus jeune des princesses Disney?",
+    "correct_answer": "Blanche-Neige",
+    "incorrect_answers": [    "Ariel",
+    "Tiana",
+    "Aurore"
+    
+]  },
+  {
+    "question": "Quelle princesse Disney possède une étoile sur le 'Hollywood Boulevard'?",
+    "correct_answer": "Blanche-Neige",
+    "incorrect_answers": [    "Belle",
+    "Aurore",
+    "Raiponce"
+    
+]  },
+  {
+    "question": "Quelle fûment les premier mots de Mickey, en 1929?",
+    "correct_answer": "Hot dogs !",
+    "incorrect_answers": [    "Bonjour les amis !",
+    "Oh non, mon parapluie !",
+    "Mais où sont donc mes chaussons ?"
+    
+]  },
+  {
+    "question": "Bo Peep est absente d'un des 4 'Toy Story'. Lequel?",
+    "correct_answer": "Toy Story 3",
+    "incorrect_answers": [    "Toy Story",
+    "Toy Story 2",
+    "Toy Story 4"
+    
+]  },
+  {
+    "question": "Une chaîne de restauration de pizza apparaît dans plusieurs film d'animation Disney-Pixar. Quel est son nom?",
+    "correct_answer": "Pizza Planet",
+    "incorrect_answers": [    "Pizza Mania",
+    "Pizza Al Dente",
+    "Pi-Z-Z-a"
+    
+]  },
+  {
+    "question": "Quelle est la seule princesse Disney ayant des frères?",
+    "correct_answer": "Mérida",
+    "incorrect_answers": [    "Tiana",
+    "Pocahontas",
+    "Blanche-Neige"
+    
+]  }
+]
