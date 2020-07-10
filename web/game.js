@@ -46,7 +46,7 @@ fetch(
     });
 
 //CONSTANTS
-const CORRECT_BONUS = 1;
+let CORRECT_BONUS = 1;
 const MAX_QUESTIONS = 35;
 
 startGame = () => {
@@ -72,7 +72,6 @@ getNewQuestion = () => {
     const questionIndex = Math.floor(Math.random() * availableQuesions.length);
     currentQuestion = availableQuesions[questionIndex];
     question.innerHTML = currentQuestion.question;
-
     choices.forEach((choice) => {
         const number = choice.dataset['number'];
         choice.innerHTML = currentQuestion['choice' + number];
@@ -88,19 +87,26 @@ choices.forEach((choice) => {
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
+        const correctChoice = (choices[currentQuestion.answer-1]);
         const selectedAnswer = selectedChoice.dataset['number'];
-
+        
         const classToApply =
-            selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+        selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if (classToApply === 'correct') {
             incrementScore(CORRECT_BONUS);
+            if (CORRECT_BONUS < 5){ CORRECT_BONUS=CORRECT_BONUS+1}
+        }
+        else {
+            CORRECT_BONUS = 1;
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
+        correctChoice.parentElement.classList.add('correct');
 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
+            correctChoice.parentElement.classList.remove('correct');
             getNewQuestion();
         }, 1000);
     });

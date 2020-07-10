@@ -6,22 +6,21 @@ const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
 const MAX_HIGH_SCORES = 5;
 
-finalScore.innerText = mostRecentScore+'/20';
+finalScore.innerText = mostRecentScore+' Points';
 
 var today = new Date();
-var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+var date = today.getDate() + '-' + (today.getMonth() + 1) + '-' + today.getFullYear();
 var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-var username = date + ' ' + time;
+var username = date + ' ' + time + ' ';
 console.log(username);
 
 
 const score = {
     score: mostRecentScore,
-    name: username.value,
+    name: username,
 };
 highScores.push(score);
 highScores.sort((a, b) => b.score - a.score);
 highScores.splice(5);
 
 localStorage.setItem('highScores', JSON.stringify(highScores));
-window.location.assign('index.html');

@@ -147,14 +147,6 @@
     
 ]  },
   {
-    "question": "Dans 'Le Monde de Dory', qui part à la recherche de ses parents?",
-    "correct_answer": "Marin et Nemo",
-    "incorrect_answers": [    "Marin et Hank",
-    "Becky et Nemo",
-    "Hank et Becky"
-    
-]  },
-  {
     "question": "Quel personnage dans 'Les Mondes de Ralph' est le vrai maître de la terre de Sa Sucrerie?",
     "correct_answer": "Vanellope Von Schweetz",
     "incorrect_answers": [    "Docteur Facilier",
@@ -248,14 +240,6 @@
     "incorrect_answers": [    "Un coupé Mercury Club de 1949",
     "Une Chevrolet Impala de 1967",
     "Une Fiat 500 de 1959"
-    
-]  },
-  {
-    "question": "Pour quelle raison Linguini a-t-il été engagé à l’origine dans la cuisine de Gusteau?",
-    "correct_answer": "Vider les poubelles",
-    "incorrect_answers": [    "Serveur",
-    "Sous chef",
-    "Faire la vaisselle"
     
 ]  },
   {
@@ -416,14 +400,6 @@
     "incorrect_answers": [    "Japu",
     "Japou",
     "Joe"
-    
-]  },
-  {
-    "question": "Quel animal Raiponce suit-elle à la trace tout le long du film?",
-    "correct_answer": "Un caméléon",
-    "incorrect_answers": [    "Un lapin",
-    "Un lézard",
-    "Un cheval"
     
 ]  },
   {
@@ -668,10 +644,10 @@
 ]  },
   {
     "question": "Dans la chanson 'J'en ai rêvé', quelles sont les paroles qui suivent: 'refusons tout deux ...' ?",
-    "correct_answer": "Que nos lendemains soient mal écrits",
+    "correct_answer": "Que nos lendemains soient mornes et gris",
     "incorrect_answers": [    "Que l'histoire nous oublie",
-    "Que le temps passe trop vite",
-    "Que le futur soit monotone"
+    "Que nos lendemains soient mal écrits",
+    "Que le futur soit morne et gris"
     
 ]  },
   {
@@ -1035,7 +1011,7 @@
     
 ]  },
   {
-    "question": "Une fois la Belle et tous les gens du château endormis, le mur d'enceinte est entrouré de ...",
+    "question": "Une fois Aurore et tous les gens du château endormis, le mur d'enceinte est entrouré de ...",
     "correct_answer": "Ronces",
     "incorrect_answers": [    "Lierre",
     "Chèvrefeuille",
@@ -1121,5 +1097,77 @@
     "Pocahontas",
     "Blanche-Neige"
     
-]  }
+]  },
+{
+  "question": "Quelle fleur représentant l'amour est porteuse de mauvais sort dans 'La Belle et la Bête' ?",
+  "correct_answer": "Une rose",
+  "incorrect_answers": [    
+  "Une jonquille",
+  "Une tulipe",
+  "Un tournesol"
+  ]
+},
+{
+  "question": "Passé minuit, en quoi le somptueux carrosse de Cendrillon se transforme-t-il ?",
+  "correct_answer": "En citrouille",
+  "incorrect_answers": [    
+  "En souris",
+  "En gâteau",
+  "En marmitte"
+  ]
+},
+{
+  "question": "Quelle princesse de Disney peut-on entendre chanter 'Siffler en travaillant' ? ",
+  "correct_answer": "Blanche-Neige",
+  "incorrect_answers": [    
+  "Mérida",
+  "Pocahontas",
+  "Tiana"
+  ]
+},
+{
+  "question": "Laquelle de ces princesses est très souvent représentée dans sa robe de bal jaune or ?",
+  "correct_answer": "Belle",
+  "incorrect_answers": [    
+  "Mérida",
+  "Mulan",
+  "Aurore"
+  ]
+},
+{
+  "question": "Quelle princesse Disney communique librement avec la nature et les animaux ?",
+  "correct_answer": "Pocahontas",
+  "incorrect_answers": [    
+  "Tiana",
+  "Blanche-Neige",
+  "Elsa"
+  ]
+},
+{
+  "question": "Quel animal est Rajah, animal de compagnie de la princesse Jasmine ?",
+  "correct_answer": "Un tigre",
+  "incorrect_answers": [    
+  "Un singe",
+  "Un oiseau",
+  "Un sanglier"
+  ]
+},
+{
+  "question": "Dans 'Mulan', quel est le nom du dragon, le gardien de la famille ?",
+  "correct_answer": "Mushu",
+  "incorrect_answers": [    
+  "General Li",
+  "Yao",
+  "Shang"
+  ]
+},
+{
+  "question": "Quel est le prénom du chat de la belle-mère de Cendrillon ?",
+  "correct_answer": "Lucifer",
+  "incorrect_answers": [    
+  "Diabolo",
+  "Satan",
+  "Belzébuth"
+  ]
+}
 ]
