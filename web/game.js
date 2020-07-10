@@ -39,7 +39,6 @@ fetch(
 
             return formattedQuestion;
         });
-        console.log(loadedQuestions)
         startGame();
     })
     .catch((err) => {
@@ -48,7 +47,7 @@ fetch(
 
 //CONSTANTS
 const CORRECT_BONUS = 1;
-const MAX_QUESTIONS = 20;
+const MAX_QUESTIONS = 35;
 
 startGame = () => {
     questionCounter = 0;
@@ -63,7 +62,7 @@ getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         //go to the end page
-        return window.location.assign('/end.html');
+        return window.location.assign('end.html');
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;

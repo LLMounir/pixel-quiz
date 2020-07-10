@@ -129,8 +129,8 @@ input::placeholder {
 .logo-box {
 position: fixed;
 width: 4rem;
-bottom: 0;
-left: 0;
+bottom: 20px;
+left: 20px;
 }
 
 .logo {
@@ -140,4 +140,22 @@ left: 0;
 
 .logo:hover {
   transform: scale(1.2);
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
 }
