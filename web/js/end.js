@@ -8,12 +8,7 @@ const MAX_HIGH_SCORES = 5;
 
 finalScore.innerText = mostRecentScore+' Points';
 
-var today = new Date();
-var date = today.getDate() + '-' + (today.getMonth() + 1) + '-' + today.getFullYear();
-var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-var username = date + ' ' + time + ' ';
-console.log(username);
-
+username = new Date().toLocaleString();
 
 const score = {
     score: mostRecentScore,

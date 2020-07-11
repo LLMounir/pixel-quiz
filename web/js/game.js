@@ -5,6 +5,7 @@ const scoreText = document.getElementById('score');
 const progressBarFull = document.getElementById('progressBarFull');
 const loader = document.getElementById('loader');
 const game = document.getElementById('game');
+const point = document.getElementById('bonus');
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
@@ -14,7 +15,7 @@ let availableQuesions = [];
 let questions = [];
 
 fetch(
-    "questions.json"
+    "../assets/questions.json"
 )
     .then((res) => {
         return res.json();
@@ -47,7 +48,7 @@ fetch(
 
 //CONSTANTS
 let CORRECT_BONUS = 1;
-const MAX_QUESTIONS = 35;
+const MAX_QUESTIONS = 30;
 
 startGame = () => {
     questionCounter = 0;
@@ -62,7 +63,7 @@ getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         //go to the end page
-        return window.location.assign('end.html');
+        return window.location.assign('../pages/end.html');
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
@@ -100,6 +101,14 @@ choices.forEach((choice) => {
         else {
             CORRECT_BONUS = 1;
         }
+
+        if (CORRECT_BONUS > 1) {
+            point.innerHTML = CORRECT_BONUS + ' Points';
+        } else {
+            point.innerHTML = CORRECT_BONUS + ' Point';           
+        }
+        
+
 
         selectedChoice.parentElement.classList.add(classToApply);
         correctChoice.parentElement.classList.add('correct');
