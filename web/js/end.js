@@ -10,6 +10,13 @@ finalScore.innerText = mostRecentScore+' Points';
 
 username = new Date().toLocaleString();
 
+var from = document.referrer;
+var fromBool = from.includes("game");
+
+if (!(fromBool)){
+    window.location.assign('../index.html');
+}
+
 const score = {
     score: mostRecentScore,
     name: username,
