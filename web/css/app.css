@@ -120,6 +120,7 @@ input {
   font-size: 1.8rem;
   border: none;
   box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  color: black;
 }
 
 input::placeholder {
@@ -127,10 +128,10 @@ input::placeholder {
 }
 
 .logo-box {
-position: fixed;
-width: 4rem;
-bottom: 20px;
-left: 20px;
+  position: fixed;
+  width: 4rem;
+  bottom: 20px;
+  left: 20px;
 }
 
 .logo {
