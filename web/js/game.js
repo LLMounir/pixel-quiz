@@ -48,7 +48,7 @@ fetch(
 
 //CONSTANTS
 let CORRECT_BONUS = 1;
-const MAX_QUESTIONS = 30;
+const MAX_QUESTIONS = 2; //TODO:change value to normal
 
 startGame = () => {
     questionCounter = 0;
