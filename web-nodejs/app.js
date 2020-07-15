@@ -1,11 +1,12 @@
 const express = require('express');
 const path = require('path');
 require('dotenv').config();
-
+const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
 //init app
 const app = express();
 
-const mongoose = require('mongoose');
+
 const uri = process.env.ATLAS_URI;
 mongoose.connect(uri, { useNewUrlParser: true, useCreationIndex: true, useUnifiedTopology: true });
 const db = mongoose.connection;
@@ -27,6 +28,13 @@ let Article = require('./models/article');
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
+// Body parse middleware
+app.use(bodyParser.urlencoded({extended: false}))
+app.use(bodyParser.json())
+
+// set public folder
+app.use(express.static(path.join(__dirname, 'public')));
+
 //Home Route
 app.get('/',function(req, res){
     Article.find({}, function(err, articles){
@@ -45,6 +53,23 @@ app.get('/',function(req, res){
 app.get('/articles/add', function(req, res){
     res.render('add_article', {
         title: 'Add Article'
+    });
+});
+
+// Add Submit POST Route
+app.post('/articles/add', function(req, res){
+    let article = new Article();
+    article.title = req.body.title;
+    article.author = req.body.author;
+    article.body = req.body.body;
+    
+    article.save(function(err){
+        if(err){
+            console.log(err);
+            return
+        } else {
+            res.redirect('/');
+        }
     });
 });
 
