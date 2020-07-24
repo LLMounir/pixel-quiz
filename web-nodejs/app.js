@@ -3,12 +3,14 @@ const path = require('path');
 require('dotenv').config();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+var http = require('http');
+
 //init app
 const app = express();
 
-
+var application_root = __dirname;
 const uri = process.env.ATLAS_URI;
-mongoose.connect(uri, { useNewUrlParser: true, useCreationIndex: true, useUnifiedTopology: true });
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection;
 
 
@@ -25,7 +27,7 @@ db.once('open', () => {
 let Article = require('./models/article');
 
 //load view engine
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(application_root, 'views'));
 app.set('view engine', 'pug');
 
 // Body parse middleware
@@ -33,7 +35,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())
 
 // set public folder
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(application_root, 'public')));
 
 //Home Route
 app.get('/',function(req, res){
@@ -115,4 +117,3 @@ app.post('/articles/edit/:id', function (req, res) {
 app.listen(3000, function(){
     console.log('Server started on port 3000..')
 });
-
